@@ -1,0 +1,100 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("background.jpeg");
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#logo {
+    text-align: center;
+    padding: 20px;
+}
+.color-red {
+    color: #f45050;
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+.link:hover {
+    color: #f45050;
+}
+#text {
+    text-align: center;
+    padding: 5vw;
+    padding-top: 5vw;
+    font-size: 26px;
+}
+#blocks {
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block {
+    padding: 40px;
+    text-align: center;
+}
+.number {
+    font-weight: bold;
+    font-size: 70px;
+}
+.unit {
+    font-size: 30px;
+    padding: 10px;
+}
+#bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#text-bottom {
+    font-size: 26px;
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+}
+.input {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    height: 50px;
+    position: relative;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 400px;
+    background-color: transparent;
+    transition: border-bottom-color 0.5s;
+}
+::-webkit-input-placeholder {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.4;
+}
+::-moz-placeholder {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.4;
+}
+:-ms-input-placeholder {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.4;
+}
+:-moz-placeholder {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.4;
+}
+.input:focus {
+    outline: none;
+    border-bottom-color: #f45050;
+}
